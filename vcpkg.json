@@ -1,0 +1,22 @@
+{
+    "name": "daxa-template",
+    "version": "0.1.0",
+    "dependencies": [
+        {
+            "name": "daxa",
+            "features": [
+                "utils",
+                "glslang",
+                "dxc"
+            ]
+        },
+        "glfw3",
+        "glm",
+        {
+            "name": "imgui",
+            "features": [
+                "glfw-binding"
+            ]
+        }
+    ]
+}
